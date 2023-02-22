@@ -29,6 +29,7 @@
   outline: none;
   text-transform: capitalize;
   transition: all .2s linear;
+  
 }
 html
 {
@@ -101,13 +102,15 @@ justify-content: flex-start;
 }
 .home .home-slider .slide1{
 background: url(slideshow-9.jpg);
-
+overflow-x:hidden;
 }
 .home .home-slider .slide2{
- background: url(slideshow-11.jpg); 
+ background: url(slideshow-11.jpg);
+  overflow-x:hidden;
 }
 .home .home-slider .slide3{
   background: url(slideshow-8.jpg);
+  overflow-x:hidden;
 }
 .home .home-slider .slide1,
 .home .home-slider .slide2,
@@ -116,6 +119,8 @@ background: url(slideshow-9.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
 .home .home-slider .slide .content{
   text-align: center;
   padding-left: 9rem;
