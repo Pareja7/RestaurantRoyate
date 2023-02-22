@@ -259,7 +259,7 @@ font-weight: 400;
 .our-menu .menu-container{
   padding: 3rem 0;
   display: grid;
-  grid-template-colums: repeat(auto-fit, minmax(50rem,2fr))
+  grid-template-columns: repeat(auto-fit, minmax(50rem,2fr))
 }
 
 
@@ -355,10 +355,10 @@ overflow: hidden;
 }
 
 .our-chef .item .chef-info h3{
-font-zize: 1.7rem;
+font-size: 1.7rem;
 color: #fff;
 padding: .8rem 0;
-text-transfrom: uppercase;
+text-transform: uppercase;
 }
 .our-chef .item .chef-info span{
   font-size: 1.7rem;
@@ -503,6 +503,10 @@ padding: 0 7rem;
   justify-content: center;
   padding-top: 1rem;
 }
+.social-links {
+  margin-inline-end: 45px;
+}
+
 .footer .container ul li a{
   color: #b2b2b2;
   margin-left: 10px;
@@ -534,7 +538,7 @@ padding: 0 7rem;
   bottom: 10%;
   width: 30px;
   height: 30px;
-  backgrouond: #cdaa7c;
+  background: #cdaa7c;
   color: #fff;
   cursor: pointer;
 }
@@ -556,9 +560,9 @@ padding: 0 7rem;
     grid-template-columns: repeat(auto-fit,minmax(30rem,2fr));
   }
 
-  .our-menu .menu-container .item .item-menu span{
+  /*.our-menu .menu-container .item .item-menu span{
 
-  }
+  }*/
 
 
 }
